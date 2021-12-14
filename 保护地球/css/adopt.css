@@ -1,0 +1,132 @@
+.phone-buy {
+	background-color: #f5f5f5;
+	width: 100%;
+	height: 1200px;
+}
+.p {
+	height: 60px;
+}
+.p p{
+	text-align: center;
+	font-size: 24px;
+	line-height: 60px;
+	color:  #555;
+}
+.phone {
+	height: 58px;
+	width: 100%;
+}
+.phone p {
+	color: #333;
+	height: 58px;
+	line-height: 58px;
+}
+.phone p:first-child {
+	font-size: 20px;
+}
+.phone p:last-child {
+	font-family: "icomoon";
+}
+.phone-type {
+	height: 615px;
+	width: 100%;
+}
+.phone-type-l img {
+	height: 614px;
+	width: 234px;
+	transition: all 0.2s linear;
+}
+.phone-type-l img:hover {
+	transform: translate(0,-5px);
+	box-shadow: 7px 10px 10px rgba(0,0,0,.3),
+				-7px 10px 10px rgba(0,0,0,.3);
+}
+.phone-type-r li {
+	float: left;
+	background-color: #fff;
+}
+.figure-img {
+	margin: 0 auto;
+	width: 160px;
+	height: 160px;
+}
+.figure-img a {
+	display: block;
+		margin: 0 auto;
+	/*width: 160px;	he
+	height: 160px;*/
+}
+.figure-img img {
+	display: block;
+	margin-left: -20px;
+	width: 200px;
+	height: 200px;
+}
+.title a {
+	color: red;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;	
+}
+
+.buy {
+	display: block;
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	margin: 25px auto;
+	background-color: orange;
+}
+.buy:hover {
+	color: orange;
+	background-color: #fff;
+}
+.phone-type-r {
+	float: left;
+}
+.phone-type-r ul {
+	width:966px;
+}
+.phone-type-r li {
+	width: 290px;
+	height: 300px;
+	padding: 20px 0px;
+	margin: 10px 0 30px 25px;
+	transition: all 0.2s linear;
+	float: left;
+}
+.phone-type-r li h3 {
+	margin: 40px 10px 2px;
+}
+.phone-type-r li .title {
+	text-align: center;
+	/*color: #333;
+	font-size: 14px;*/
+	font-weight: normal;
+}
+.phone-type-r li p {
+	line-height: 18px;
+	margin: 0 10px 10px;
+	height: 18px;
+	font-size: 12px;
+	text-align: center;
+/*	text-overflow: ellipsis;
+	white-space: nowrap;*/
+/*	overflow: hidden;*/
+	color: #b0b0b0;
+}
+.phone-type-r li p:last-child {
+	color: #ff6700;
+}
+.phone-type-r li:hover {
+	transform: translate(0,-5px);
+	box-shadow: 7px 10px 10px rgba(0,0,0,.05),
+				-7px 10px 10px rgba(0,0,0,.05);
+}
+.we {
+	width: 300px;
+	margin: 10px 20px 0 0;
+}

@@ -1,0 +1,58 @@
+.buy {
+	margin-top: 60px;
+	padding-top: 60px;
+	height: 500px;
+	border-bottom: 2px solid #ccc;
+}
+/*.buy-l img {
+	width: 400px;
+	height: 500px;
+}*/
+.buy-l {
+	width: 400px;
+	height: 500px;
+	overflow: hidden;
+}
+.buy-l img {
+	width: 400px;
+	height: 400px;
+}
+.buy-r {
+	padding-top: 40px;
+	margin-left: 20px;
+}
+.buy-r h3 {
+	font-size: 28px;
+	width: 420px;
+	line-height: 30px;
+}
+.buy-r h4 {
+	font-size: 24px;
+	color: red;
+	font-weight: 700;
+	line-height: 60px;
+}
+.buy-r p {
+	line-height: 30px;
+	margin-top: 30px;
+	text-indent: 2em;
+	width: 450px;
+	font-size: 14px;
+	color: #666;
+}
+.buy-r a {
+	display: block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	margin: 20px auto;
+	border-radius: 5px;
+	background-color: orange;
+}
+.buy-r a:hover {
+	background-color: #fff;
+	color: orange;
+}
